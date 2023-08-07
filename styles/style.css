@@ -267,7 +267,7 @@ padding: 3%;
     position: fixed;
     top: 0;
     left: 2px; /*move o texto*/
-    width: 5%;
+    width: 100%;
     padding: 1px;
     background-color: var(--cor-principal);
     box-shadow: 0px 2px 5px 10px rgba(21, 21, 21, 0.2);
