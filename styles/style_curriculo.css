@@ -1,0 +1,109 @@
+:root {
+    --cor-principal: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+    
+    --font-principal: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+    
+      }
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    margin: 0;
+     padding: 0;
+}
+
+
+
+
+*
+
+body {
+    margin: 0;
+     padding: 0;
+}
+
+
+    
+    p1 {
+        font-size: 2.1rem;
+        color:#f6f6f6;
+        
+        }
+    
+     p2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem; /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+        font-weight: 600;
+        color: antiquewhite);
+        text-decoration: none
+    }
+    
+    b {
+    color: #f6f6f6;
+    font-size: 1.4rem;
+    
+    }
+    
+    h1  {
+        color: chocolate;;
+    }
+
+
+    h2  {
+        color: chocolate;;
+    }
+
+    
+    h3 {
+        
+        font-family: 'Montserrat', sans-serif;;
+        font-size: 2rem;
+        color: var(--cor-terciaria);
+    }
+    
+    h4 {
+        font-family: 'Montserrat', sans-serif;;
+        font-size: 2rem;
+        color: var(--cor-terciaria);      
+    }
+    
+    
+    p {
+        font-family: 'Krona One', sans-serif;
+        font-size: 1.2rem;
+        color: var(--cor-secundaria);
+    }
+    
+    
+    p2 {
+        color: chocolate;
+        font-size: 1.4rem;
+        text-decoration: line;
+    }
+    
+    
+    
+
+.apresentacao__imagem-gif {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#fixed-gif {
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    right: 0;
+    left: 18cm;
+    padding: 20px;  /* Move a imagem 2 cm para a esquerda da posição original */
+
+
+}

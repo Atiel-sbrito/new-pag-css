@@ -1,0 +1,348 @@
+/* todos os itens das aulas DE 1 ATÉ 5 de HTML E CSS -- https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso3/commits/aula_5 
+
+
+Todos os documentos do CSS, HTML e java você pode encontrar neste link -- https://www.w3schools.com/
+
+FIGMA DO CURSO - https://www.figma.com/file/NrzJacC887svMVfF9oC2jM/Portfolio-Projeto-2?type=design&node-id=0-1&mode=design&t=waawRGJvZJbfhrU8-0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+  /* Isso é um comentário em CSS */
+
+
+  :root {
+--cor-principal: #000000;
+--cor-secundaria: #f6f6f6;
+--cor-terciaria: #22d4fd;
+--cor-hover: #272727;
+
+--font-principal: 'Krona One', sans-serif;
+--font-secundaria: 'Montserrat', sans-serif;
+
+  }
+
+*{
+margin: 10%;
+padding: 0;
+}
+
+
+body {
+   /* height: 100vh;*/
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    text-align: left
+}
+
+.cabecalho {
+padding: % 5% 0%;
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 80px;
+
+
+}
+
+.cabecalho__menu__link {
+    
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1.5rem; /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+     font-weight: 600;
+     color: var(--cor-terciaria);
+     text-decoration: none;
+    
+ }
+
+
+.apresentacao {
+    
+    padding: 5% 1% 2% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.apresentacao__conteudo__texto {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    
+}
+
+.apresentacao__conteudo__titulo {
+
+    font-size: 2.25rem;  /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+    font-family: 'Krona One', sans-serif;
+}
+
+.cabecalho__menu__link__curriculo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem; /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: 
+}
+
+
+p1 {
+    font-size: 2.1rem;
+    color:#f6f6f6;
+    
+    }
+
+ p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+    font-weight: 600;
+    color: antiquewhite);
+    text-decoration: none
+}
+
+b {
+color: #f6f6f6;
+font-size: 1.4rem;
+
+}
+
+h1 {
+    color: chocolate;
+    color:;
+}
+
+h3 {
+    
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 2rem;
+    color: var(--cor-terciaria);
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 2rem;
+    color: var(--cor-terciaria);      
+}
+
+
+p {
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.2rem;
+    color: var(--cor-secundaria);
+}
+
+
+p2 {
+    color: chocolate;
+    font-size: 1.4rem;
+    text-decoration: line;
+}
+
+
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
+    font-family: 'Montserrat', sans-serif;
+     font-size: 3rem;
+}
+ 
+
+
+    .apresentacao__conteudo__texto {
+        font-size: 1.5rem;  /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+        font-family: 'Montserrat', sans-serif;
+        color: var(--cor-secundaria);
+    }
+
+    .apresentacao__links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    }
+
+    .apresentcao__links__subtitulo {
+        font-family: 'Krona One', sans-serif;
+        font-weight: 400;
+        font: 24px;
+    }
+
+    .apresentacao__links__link {
+    /* background-color: #22d4fd; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;  /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif
+    }
+
+    .apresentacao__links__link:hover {
+
+background-color: var(--cor-hover);
+padding: 3%;
+    }
+
+.apresentacao__imagem {
+    width: 45%;
+
+
+}
+
+    .rodape {
+        background-color: var(--cor-terciaria);
+        color: var(--cor-principal);
+        padding: 29px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;  /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+       
+    }
+
+
+    p {
+        color: #000000;
+    }
+
+
+    @media (max-width: 1200px) {
+
+        .cabecalho {
+            padding: 10%;
+        }
+
+        .cabecalho__menu{
+
+            justify-content: center;
+        }
+
+.apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+}
+    .apresentacao__conteudo {
+
+        width: auto;
+    }
+
+    }
+
+    .apresentacao__imagem-gif {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #fixed-gif {
+        position: absolute;
+        top: 69%;
+        right: 40;
+        left: 36cm;
+        padding: 20px;  /* Move a imagem 2 cm para a esquerda da posição original */
+    }
+
+    
+
+
+    
+.cabecalho__menu__link__1 {
+    position: fixed;
+    top: 0;
+    left: 2px; /*move o texto*/
+    width: 5%;
+    padding: 1px;
+    background-color: var(--cor-principal);
+    box-shadow: 0px 2px 5px 10px rgba(21, 21, 21, 0.2);
+    
+    
+        font-family: 'Montserrat', sans-serif;
+         font-size: 1.3rem; /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+         font-weight:600;
+    
+         color: var(--cor-terciaria);
+         text-decoration: none;
+         gap: 10px;
+    
+         padding:33px 0% 0% 4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+    
+    
+       .cabecalho__menu__link__2 {
+        position: fixed;
+        top: 0px; /* Ajuste a posição vertical conforme necessário */
+        left: 146px; /* Ajuste a posição horizontal conforme necessário */
+        width: 45%;
+        background-color: var(--cor-principal);
+        padding: 1px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 20px; /* Ajusta a margem direita para posicionar o título */
+        
+    
+    
+    
+        font-family: 'Montserrat', sans-serif;
+         font-size: 1.2rem; /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+         font-weight: 600;
+         color: var(--cor-terciaria);
+         text-decoration: none;
+        
+    
+         padding:33px 0% 0% 1%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+
+         
+        }
+    
+        .cabecalho__menu__link__3 {
+            position: fixed;
+            top: 0px; /* Ajuste a posição vertical conforme necessário */
+            left: 301px; /* Ajuste a posição horizontal conforme necessário */
+            width: 100%;
+            background-color: var(--cor-principal);
+            padding: 1px;
+            font-size: 0px;
+            font-weight: bolder;
+            margin-right: 20px; /* Ajusta a margem direita para posicionar o título */
+            
+        
+        
+        
+            font-family: 'Montserrat', sans-serif;
+             font-size: 1.2rem; /* 16 px é igual a 1 rem, e isso serve para o computador poder mudar o tamamnho do texto para configuração de pessoas com dificuldade de visão*/
+             font-weight: 600;
+             color: var(--cor-terciaria);
+             text-decoration: none;
+            
+        
+            
+        padding:33px 0% 0% 0%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+            }
+        
+    
